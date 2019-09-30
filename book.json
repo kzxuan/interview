@@ -2,5 +2,11 @@
     "title": "Interview",
     "author": "KzXuan",
     "language": "zh-hans",
-    "plugins":["expandable-chapters-small"]
+    "plugins":[
+        "-lunr",
+        "-search",
+        "search-plus",
+        "emphasize",
+        "expandable-chapters-small"
+    ]
 }

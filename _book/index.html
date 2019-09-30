@@ -17,15 +17,19 @@
     
             
                 
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-search-plus/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-emphasize/plugin.css">
+                
+            
+                
                 <link rel="stylesheet" href="gitbook/gitbook-plugin-expandable-chapters-small/expandable-chapters-small.css">
                 
             
                 
                 <link rel="stylesheet" href="gitbook/gitbook-plugin-highlight/website.css">
-                
-            
-                
-                <link rel="stylesheet" href="gitbook/gitbook-plugin-search/search.css">
                 
             
                 
@@ -215,7 +219,7 @@
                     <div class="page-wrapper" tabindex="-1" role="main">
                         <div class="page-inner">
                             
-<div id="book-search-results">
+<div class="search-plus" id="book-search-results">
     <div class="search-noresults">
     
                                 <section class="normal markdown-section">
@@ -259,7 +263,7 @@
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"Introduction","level":"1.1","depth":1,"next":{"title":"Python","level":"1.2","depth":1,"path":"Python.md","ref":"Python.md","articles":[{"title":"多线程与GIL","level":"1.2.1","depth":2,"anchor":"#多线程","path":"Python.md","ref":"Python.md#多线程","articles":[]},{"title":"什么情况下适合使用多线程","level":"1.2.2","depth":2,"anchor":"#什么情况下适合使用多线程","path":"Python.md","ref":"Python.md#什么情况下适合使用多线程","articles":[]},{"title":"生成器","level":"1.2.3","depth":2,"anchor":"#生成器","path":"Python.md","ref":"Python.md#生成器","articles":[]},{"title":"迭代器","level":"1.2.4","depth":2,"anchor":"#迭代器","path":"Python.md","ref":"Python.md#迭代器","articles":[]}]},"dir":"neutral"},"config":{"plugins":["expandable-chapters-small","livereload"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"expandable-chapters-small":{},"livereload":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","author":"KzXuan","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"Interview","language":"zh-hans","gitbook":"*"},"file":{"path":"README.md","mtime":"2019-09-30T03:35:59.274Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2019-09-30T05:23:52.177Z"},"basePath":".","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"Introduction","level":"1.1","depth":1,"next":{"title":"Python","level":"1.2","depth":1,"path":"Python.md","ref":"Python.md","articles":[{"title":"多线程与GIL","level":"1.2.1","depth":2,"anchor":"#多线程","path":"Python.md","ref":"Python.md#多线程","articles":[]},{"title":"什么情况下适合使用多线程","level":"1.2.2","depth":2,"anchor":"#什么情况下适合使用多线程","path":"Python.md","ref":"Python.md#什么情况下适合使用多线程","articles":[]},{"title":"生成器","level":"1.2.3","depth":2,"anchor":"#生成器","path":"Python.md","ref":"Python.md#生成器","articles":[]},{"title":"迭代器","level":"1.2.4","depth":2,"anchor":"#迭代器","path":"Python.md","ref":"Python.md#迭代器","articles":[]}]},"dir":"neutral"},"config":{"plugins":["-lunr","-search","search-plus","emphasize","expandable-chapters-small","livereload"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"search-plus":{},"emphasize":{},"expandable-chapters-small":{},"livereload":{},"highlight":{},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","author":"KzXuan","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"Interview","language":"zh-hans","gitbook":"*"},"file":{"path":"README.md","mtime":"2019-09-30T03:35:59.274Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2019-09-30T06:28:57.085Z"},"basePath":".","book":{"language":""}});
         });
     </script>
 </div>
@@ -269,27 +273,19 @@
     <script src="gitbook/theme.js"></script>
     
         
+        <script src="gitbook/gitbook-plugin-search-plus/jquery.mark.min.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-search-plus/search.js"></script>
+        
+    
+        
         <script src="gitbook/gitbook-plugin-expandable-chapters-small/expandable-chapters-small.js"></script>
         
     
         
         <script src="gitbook/gitbook-plugin-livereload/plugin.js"></script>
-        
-    
-        
-        <script src="gitbook/gitbook-plugin-search/search-engine.js"></script>
-        
-    
-        
-        <script src="gitbook/gitbook-plugin-search/search.js"></script>
-        
-    
-        
-        <script src="gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
-        
-    
-        
-        <script src="gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
         
     
         

@@ -2,7 +2,7 @@
 
 <style>
     font {
-        color: red
+        color: #C00000
     }
 </style>
 

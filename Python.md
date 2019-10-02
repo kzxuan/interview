@@ -1,12 +1,5 @@
 # Python
 
-<style>
-    font {
-        color: #C00000
-    }
-</style>
-
-
 #### 多线程
 
 - Python虚拟机使用一个<font>全局解释器锁</font>（Global Interpreter Lock）来互斥线程对Python虚拟机的使用。为了支持多线程机制，一个基本的要求就是需要实现不同线程对共享资源访问的互斥，所以引入了GIL。

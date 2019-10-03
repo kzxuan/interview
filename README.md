@@ -1,6 +1,6 @@
 # Interview Guide
 
-[Click in](https://kzxuan.github.io/Interview/#/)
+### [点击访问](https://kzxuan.github.io/Interview/#/)
 
 * [操作系统](https://kzxuan.github.io/Interview/#/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F) - KzXuan
 * [Python](https://kzxuan.github.io/Interview/#/Python) - KzXuan, HSong

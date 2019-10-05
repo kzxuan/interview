@@ -259,4 +259,5 @@
 
 > [!NOTE|label:参考资料]
 > [python生成器和迭代器有这篇就够了](https://www.cnblogs.com/wj-1314/p/8490822.html)</br>
+> [Python对象的赋值和拷贝](https://blog.csdn.net/liuweiyuxiang/article/details/89350481)</br>
 > [python设计模式之工厂模式](https://www.cnblogs.com/sfencs-hcy/p/10029960.html)

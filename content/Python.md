@@ -1,7 +1,5 @@
 # Python
 
-{docsify-updated}
-
 </br>
 
 #### 多线程与GIL

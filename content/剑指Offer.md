@@ -1,7 +1,5 @@
 # 剑指Offer
 
-{docsify-updated}
-
 </br>
 
 ### 数组与链表

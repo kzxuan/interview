@@ -8,8 +8,9 @@
 
 ## 开始浏览吧。
 
-</br></br></br></br>
+</br></br></br>
 
 > Powered by [Docsify](https://docsify.js.org/#/zh-cn/).</br>
 > Deployed by @[kzxuan](https://github.com/kzxuan).</br>
-> Supported by @[hsong](https://github.com/sheshesheshe), @[mrzhang](https://github.com/Annazmr).
+> Supported by @[hsong](https://github.com/sheshesheshe), @[mrzhang](https://github.com/Annazmr).</br>
+> Last update: {docsify-updated}

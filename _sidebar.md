@@ -2,6 +2,7 @@
 * [**Python**](content/Python.md)
 * [**过拟合与正则化**](content/过拟合与正则化.md)
 * [**支持向量机**](content/支持向量机.md)
+* [**决策树**](content/决策树.md)
 * [**神经网络**](content/神经网络.md)
 * [**排序算法**](content/排序算法.md)
 * [**剑指Offer**](content/剑指Offer.md)

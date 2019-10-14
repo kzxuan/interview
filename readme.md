@@ -22,3 +22,5 @@
 * 数组与链表 - HSong, KzXuan
 * 二叉树 - HSong
 * 字符串 - HSong
+* 数值运算 - HSong
+* 动态规划和贪心 - HSong

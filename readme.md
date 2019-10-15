@@ -15,7 +15,7 @@
 * 支持向量机 - KzXuan, MrZhang
 * 决策树 - KzXuan, MrZhang
 * 集成学习 - KzXuan, MrZhang
-* 聚类 - MrZhang
+* 聚类 - MrZhang, KzXuan
 * 神经网络 - KzXuan
 
 #### 数据结构

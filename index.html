@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Interview</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1" />
+  <meta name="description" content="Description">
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <link rel="stylesheet" href="src/vue.css">
+</head>
+<body>
+  <div id="app"></div>
+  <script>
+    window.$docsify = {
+      name: 'Interview Guide',
+      loadSidebar: true,
+      // autoHeader: true,
+      // auto2top: true,
+      subMaxLevel: 4,
+      relativePath: true,
+      homepage: 'home.md',
+      notFoundPage: true,
+      formatUpdated: '{YYYY}/{MM}/{DD}',
+      showLevel: true,
+      repo: 'https://github.com/kzxuan/Interview',
+      search: {
+        placeholder: '搜索',
+        noData: "无结果"
+      },
+      alias: {
+        '/.*/_sidebar.md': '/_sidebar.md'
+      },
+    }
+  </script>
+  <script src="src/docsify.js"></script>
+  <script src="src/search.js"></script>
+  <script src="src/docsify-pagination.min.js"></script>
+  <script src="src/prism-python.js"></script>
+  <script src="src/docsify-plugin-flexible-alerts.js"></script>
+  <script src="src/docsify-tabs.js"></script>
+  <script src="src/docsify-copy-code.js"></script>
+  <script src="src/zoom-image.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify-katex@latest/dist/docsify-katex.js"></script>
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/katex@latest/dist/katex.min.css"/>
+  <link href="http://cdn.bootcss.com/prism/9000.0.1/themes/prism.css" rel="stylesheet">
+</body>
+</html>

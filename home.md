@@ -1,4 +1,4 @@
-<div align=center><img src="img/明天就来上班.gif" width=260/></div>
+<div align=center><img src="./img/明天就来上班.gif" width=260/></div>
 
 </br>
 

@@ -75,28 +75,28 @@
 
 > [!TIP|label:创建装饰器的方式]
 > 1. 通过函数嵌套创建的装饰器</br>
-> ```python
-> from functools import wraps
-> def decorator_name(f):
->     @wraps(f)
->     def decorated(*args, **kwargs):
->         return f(*args, **kwargs)
->     return decorated
-> @decorator_name
-> def func():
->     return 1
-> ```
+>   ```python
+>   from functools import wraps
+>   def decorator_name(f):
+>       @wraps(f)
+>       def decorated(*args, **kwargs):
+>           return f(*args, **kwargs)
+>       return decorated
+>   @decorator_name
+>   def func():
+>       return 1
+>   ```
 > 2. 把类构造为装饰器</br>
-> ```python
-> class decorator_name(object):
->     def __init__(self, f):
->         self.f = f
->     def __call__(self, *args, **kwargs):
->         self.f()
-> @decorator_name
-> def func():
->     return 1
-> ```
+>   ```python
+>   class decorator_name(object):
+>       def __init__(self, f):
+>           self.f = f
+>       def __call__(self, *args, **kwargs):
+>           self.f()
+>   @decorator_name
+>   def func():
+>       return 1
+>   ```
 
 </br>
 

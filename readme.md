@@ -20,6 +20,7 @@
 
 #### 数据结构
 * 排序算法 - HSong
+* 查找算法 - KzXuan
 
 #### 剑指Offer
 * 数组与链表 - HSong, KzXuan
